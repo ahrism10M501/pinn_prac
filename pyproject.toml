@@ -5,8 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "matplotlib>=3.10.8",
     "torch>=2.10.0",
     "torchvision>=0.25.0",
+    "tqdm>=4.67.3",
 ]
 
 [[tool.uv.index]]
